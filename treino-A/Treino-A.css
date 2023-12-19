@@ -83,9 +83,14 @@ body section > div  h2 {
 
 body section div video{
     width: 320px;
-    height: 300px;
-    transition: 3s;
+   height: 200px;
     
+    
+}
+
+body section div video#portrait{
+    width: 250px;
+    height: 500px;
 }
 
 body section div input{
