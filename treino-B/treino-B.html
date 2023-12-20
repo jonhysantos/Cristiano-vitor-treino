@@ -12,25 +12,45 @@
         <p>Costas e biceps</p>
     </header>
     <menu>
-        <nav ><a href="../index.html">Treino-A</a></nav>
-        <nav class="select"><a href="../treino-B/treino-B.html">Treino B</a></nav>
+        <nav ><a href="../index.html">Treino A</a></nav>
+        <nav class="select"><a href="./treino-B/treino-B.html">Treino B</a></nav>
         <nav><a href="../treino-C/treino-C.html">Treino C</a></nav>
-        <nav><a href="../treino-D/treino-D.html">Treino D</a></nav>
+        <nav><a href="./treino-D/treino-D.html">Treino D</a></nav>
     </menu>
-    <section class="costas">
+    <section class="peito">
         <h1>Exercícios</h1>
-        
+        <h1>Costas</h1>
+        <h3>Marque como <input type="checkbox" name="check" id="check" checked> os exercícios já completados no checkbox vazio abaixo.</h3>
         <div>
-            <h1>costas</h1>
-            <p>4 séries de 8 à 12 reps</p>
-            <h2>puxada supinada </h2>
-            <video src="/treino-A/videos-peito/supino-reto-vitor.mp4" autoplay loop muted ></video>
-            <h2>Puxada pronada</h2>
+            
+            <h2>Puxada com pegada larga </h2>
+            <video class="portrait" src="videos-costas/puxada-larga (1).mp4" autoplay loop muted >
+            </video>
+            <input type="checkbox" name="done" id="done" >
+        </div>
+        <div>
+            <h2>Puxada com pegada supinada</h2>
             <!-- Aqui vai o vídeo-->
-            <h2>Puxada neutra</h2>
+            <video class="portrait"src="videos-costas/puxada-supinada (1).mp4" autoplay loop muted >
+            </video>
+            <input type="checkbox" name="done" id="done" >
+        </div>
+        <div>
+            <h2>Puxada com pegada neutra</h2>
             <!-- Aqui vai o vídeo-->
-            <h2>Remada maquina</h2>
+            <video class="portrait" src="videos-costas/puxada-neutra (1).mp4" autoplay loop muted >
+            </video>
+            <input type="checkbox" name="done" id="done">
+        </div>
+        <div>
+
+            
+            <h2>Remada máquina com pegada neutra</h2>
             <!-- Aqui vai o vídeo-->
+            <video class="portrait" src="videos-costas/remada-maquina (1).mp4" autoplay loop muted >
+            </video>
+            <input type="checkbox" name="done" id="done">
+            <label for="done">Feito!</label>
         </div>
     </section>
     <aside>
@@ -40,14 +60,25 @@
         </div>
     </aside>
     <section>
+        <h1>Biceps</h1>
         <div>
-            <h1>Biceps</h1>
-            <h2>Biceps barra</h2>
+            <h2>Rosca direta na barra W</h2>
             <!-- Aqui vai o vídeo-->
-            <h2>Biceps máquina concentrada </h2>
+            <video class="portrait" src="videos-biceps/rosxa-direta-w (1).mp4" muted loop autoplay></video>
+            <input type="checkbox" name="done" id="done">
+        </div>
+        <div>
+            <h2>Rosca direta na maquina  </h2>
             <!-- Aqui vai o vídeo-->
-            <h2>Biceps rosca martelo</h2>
+            <video class="portrait" src="videos-biceps/rosca-maquina (1).mp4" muted loop autoplay></video>
+            <input type="checkbox" name="done" id="done">
+        </div>
+        <div>
+            
+            <h2>Rosca martelo na polia com corda</h2>
             <!-- Aqui vai o vídeo-->
+            <video class="portrait" src="videos-biceps/rosca-martelo.mp4" muted loop autoplay></video>
+            <input type="checkbox" name="done" id="done">
         </div>
     </section>
     <footer>
@@ -55,5 +86,7 @@
             Criado e desenvolvido por Jonhy Alberto
         </p>
     </footer>
+    
 </body>
+<script src="Treino-B.js"></script>
 </html>
