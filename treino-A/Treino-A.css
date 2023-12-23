@@ -89,7 +89,7 @@ body section div video{
     
 }
 
-body section div video#portrait{
+body section div video.portrait{
     width: 250px;
     height: 500px;
 }
