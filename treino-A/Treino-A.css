@@ -104,6 +104,11 @@ body section div input{
    
 }
 
+p.marg{
+    margin: 10px;
+    padding: 10px;
+}
+
 #propaganda{
     background-image: url(../propaganda/guimaraes-modas.jpg);
     background-repeat: no-repeat;
