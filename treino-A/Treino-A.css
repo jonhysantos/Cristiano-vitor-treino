@@ -71,7 +71,6 @@ body section h3{
 
 body section > div  h2 {
     background-color: #1e90ff;
-    filter: drop-shadow(0 0 2em #1e90ff);
     color: white;
     padding: 5px;
     box-shadow: 2px 8px 5px rgba(0, 0, 255, 0.491);
