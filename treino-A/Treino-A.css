@@ -8,21 +8,27 @@
 }
 
 body{
+    background-color: rgba(0, 0, 0, 0.847);
     text-align: center;
     overflow-x: hidden;
+    color: white;
 }
 
 header{
-    background-color: dodgerblue;
+    background-image: url(../propaganda/foto-capa.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     padding: 15px;
+    height: 300px;
     
 }
 
 body header h1, p{
     font-weight: bolder;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.858);
-    
+    background-color: rgba(0, 0, 0, 0.601);
     
 }
 
