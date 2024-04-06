@@ -1,3 +1,17 @@
+const myObserver = new IntersectionObserver((entries) =>{
+  entries.forEach((entry) => {
+      if(entry.isIntersecting){
+          entry.target.classList.add('show')
+      }else{
+          entry.target.classList.remove('show')
+      }
+  })
+})
+
+const elements = document.querySelectorAll('.hidden')
+
+elements.forEach((element) => myObserver.observe(element))
+
 // treino de peito interativo
 let supiReto = document.getElementsByTagName('video')[0]
 let checked = document.getElementsByTagName('input')[1]
